@@ -1,3 +1,7 @@
+package ficherosv2;
+
+
+
 import java.io.*;
 import java.text.DecimalFormat;
 import java.lang.*;
@@ -24,8 +28,6 @@ public abstract class fichero {
 	protected String name;
 	protected String surname;
 	protected double[] notas = new double[3];
-	
-	
 	
 	
 	public double notaFinal(){
@@ -117,8 +119,6 @@ public abstract class fichero {
 						n_linea = 4;
 						
 						if(n_linea%4==0) i++; 
-						
-
 						
 						
 						while(lectura!=null) { //Lee linea por linea
@@ -466,6 +466,7 @@ public abstract class fichero {
 
 	} //FIN METODO
 
+	
 	
 	/*GETTERS Y SETTERS*/
 	public String getName() {
